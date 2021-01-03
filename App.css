@@ -1,0 +1,39 @@
+.App {
+max-width: 900px;
+margin: 0 auto;
+}
+
+.App-nav {
+margin: 20px;
+padding: 10px;
+border-bottom: 2px solid #508FCA;
+}
+.App-nav ul {
+padding: 0;
+margin: 0;
+}
+
+.App-nav-item {
+list-style: none;
+display: inline-block;
+margin-right: 32px;
+font-size: 24px;
+border-bottom: 4px solid transparent;
+}
+.App-content {
+margin: 0 20px;
+}
+
+
+.App-nav-item a {
+cursor: pointer;
+}
+
+.App-nav-item a:hover {
+background-color:green; /*will change background-color of element on hover */
+color: red; /*will change color of text within the element on hover */
+}
+.App-nav-item.selected {
+	background-color:blue;
+border-bottom-color: red;
+}
